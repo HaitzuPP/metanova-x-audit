@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Metanova Labs — X Audit | Pylon Partners</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 1.65; color: #111; background: #fff; padding: 48px 24px 80px; }
+    .page { max-width: 720px; margin: 0 auto; }
+    .header { border-bottom: 1px solid #e0e0e0; padding-bottom: 20px; margin-bottom: 32px; }
+    .header-meta { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: #999; margin-bottom: 8px; }
+    h1 { font-size: 22px; font-weight: 700; letter-spacing: -0.02em; color: #111; line-height: 1.2; }
+    .verdict { border-left: 3px solid #111; padding: 14px 18px; margin: 28px 0; background: #f9f9f9; }
+    .verdict p { font-size: 14px; color: #111; }
+    .verdict strong { font-weight: 700; }
+    .stats-bar { display: flex; border: 1px solid #e0e0e0; margin: 24px 0; overflow: hidden; }
+    .stat { flex: 1; padding: 14px 16px; border-right: 1px solid #e0e0e0; }
+    .stat:last-child { border-right: none; }
+    .stat-value { font-size: 20px; font-weight: 700; color: #111; line-height: 1; margin-bottom: 4px; }
+    .stat-label { font-size: 11px; color: #999; letter-spacing: 0.04em; }
+    .stat-value.red { color: #c0392b; }
+    .stat-value.green { color: #1a7a3a; }
+    .section { margin: 40px 0; }
+    .section-label { font-size: 10px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #999; margin-bottom: 6px; }
+    h2 { font-size: 16px; font-weight: 700; color: #111; margin-bottom: 16px; line-height: 1.3; }
+    .priority-stack { margin-top: 16px; }
+    .priority-item { display: flex; gap: 16px; padding: 18px 0; border-bottom: 1px solid #e8e8e8; }
+    .priority-item:first-child { border-top: 1px solid #e8e8e8; }
+    .priority-num { font-size: 11px; font-weight: 700; letter-spacing: 0.06em; color: #999; min-width: 20px; padding-top: 2px; }
+    .priority-content strong { display: block; font-size: 13px; font-weight: 700; color: #111; margin-bottom: 5px; }
+    .priority-content p { font-size: 13px; color: #444; line-height: 1.6; }
+    p { font-size: 14px; color: #333; line-height: 1.7; margin-bottom: 14px; }
+    p:last-child { margin-bottom: 0; }
+    a { color: #111; text-decoration: underline; text-underline-offset: 2px; }
+    a:hover { color: #1a7a3a; }
+    hr { border: none; border-top: 1px solid #e8e8e8; margin: 40px 0; }
+    .footer { margin-top: 60px; padding-top: 20px; border-top: 1px solid #e0e0e0; font-size: 11px; color: #bbb; letter-spacing: 0.04em; }
+    @media (max-width: 600px) { .stats-bar { flex-wrap: wrap; } .stat { flex: 1 1 45%; border-bottom: 1px solid #e0e0e0; } }
+  </style>
+</head>
+<body>
+<div class="page">
+  <div class="header">
+    <div class="header-meta">Pylon Partners &nbsp;&middot;&nbsp; X Audit &nbsp;&middot;&nbsp; April 2026</div>
+    <h1>Metanova Labs</h1>
+  </div>
+
+  <div class="verdict">
+    <p><strong>Verdict:</strong> Metanova has real science and a credible founder. Neither is visible on X. The feed is optimized for Bittensor miners, the CEO has no public X presence despite speaking at Proof of Talk and VivaTech, and the project has no category phrase an allocator could repeat. Three fixable problems, ranked below.</p>
+  </div>
+
+  <div class="stats-bar">
+    <div class="stat"><div class="stat-value red">3,898</div><div class="stat-label">@metanova_labs followers</div></div>
+    <div class="stat"><div class="stat-value red">1.7x</div><div class="stat-label">Posts per day</div></div>
+    <div class="stat"><div class="stat-value green">5,000</div><div class="stat-label">@webuildscore followers</div></div>
+    <div class="stat"><div class="stat-value red">0</div><div class="stat-label">CEO posts on X</div></div>
+  </div>
+
+  <div class="section">
+    <div class="section-label">Priority Problem Stack</div>
+    <h2>Three problems. Ranked by leverage.</h2>
+    <div class="priority-stack">
+      <div class="priority-item">
+        <div class="priority-num">01</div>
+        <div class="priority-content">
+          <strong>CEO X void</strong>
+          <p><a href="https://x.com/bazochavez">Micaela Bazo</a> spoke at <a href="https://x.com/proofoftalk/status/1928359593865880008">Proof of Talk</a> and VivaTech in 2025. Her personal X account has no posted content. Every allocator who saw her present checked the account afterward. It returned nothing. <a href="https://x.com/webuildscore">Score's CEO Max Sebti</a> posts independently and the corporate account amplifies his appearances. This is the single highest-leverage gap and fixable in days.</p>
+        </div>
+      </div>
+      <div class="priority-item">
+        <div class="priority-num">02</div>
+        <div class="priority-content">
+          <strong>No category ownership</strong>
+          <p><a href="https://x.com/metanova_labs/status/1895902681182388622">"The world's first decentralized drug screening platform"</a> is a product description, not a category position. Score branded itself "The Optic Nerve of AI" before mainnet launch. <a href="https://www.bio.xyz/">BIO Protocol</a> calls itself "the curation and liquidity protocol for DeSci." Metanova has no equivalent phrase and gets described by its subnet number.</p>
+        </div>
+      </div>
+      <div class="priority-item">
+        <div class="priority-num">03</div>
+        <div class="priority-content">
+          <strong>Feed built for miners, not allocators</strong>
+          <p>The account posts roughly 1.7 times per day. Score has 5,000 followers at lower frequency with higher institutional signal. The three audiences that move valuation &mdash; biotech LPs, DeSci fund managers, and pharma BD teams &mdash; are not being spoken to.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="section">
+    <div class="section-label">Audience Targeting</div>
+    <h2>Feed optimized for the wrong audience</h2>
+    <p>The <a href="https://x.com/metanova_labs/status/1921260760962875502">TREAT-1 reply thread</a>, responding to @Victor_crypto_2, is a community management interaction published on the main corporate account. The <a href="https://x.com/metanova_labs/status/2003581846232391925">December 2025 scoring function update</a> is written at a level of technical specificity requiring a PhD in cheminformatics to evaluate, with no framing for why institutional readers should care. Both posts serve subnet participants. Neither would survive a fund manager's five-second pattern-match.</p>
+    <p>The clearest evidence of the mismatch is the <a href="https://www.einnews.com/pr_news/868221520/diagen-ai-inc-and-metanova-labs-announce-joint-venture-loi-to-develop-hit-picking-tool-for-automating-drug-discovery">DiaGen AI JV announcement</a> (November 2025). A joint venture LOI with an AI bioinformatics firm is exactly the commercial traction signal institutional allocators use to separate real infrastructure from token speculation. There is no evidence it was packaged for a TradFi audience: no framing of what the JV implies for Metanova's revenue model, no comparison to what <a href="https://www.recursion.com/">Recursion Pharmaceuticals</a> or <a href="https://www.benevolent.com/">BenevolentAI</a> have demonstrated about AI-assisted drug discovery at commercial scale. The event happened. The institutional signal was not captured.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-label">Content Quality</div>
+    <h2>Real data, wrong frame</h2>
+    <p>The data is there. The <a href="https://x.com/metanova_labs">July 2025 platform update</a> cited 4.6 million molecule submissions against 7,000 protein targets in four months. The <a href="https://x.com/metanova_labs/status/1921260760962875502">TREAT-1 announcement</a> is a real product milestone. A 65-billion-molecule dataset is a number worth publishing. None of these figures appear with a benchmark. <a href="https://www.schrodinger.com/">Schrödinger</a>, the most directly comparable TradFi-facing computational drug discovery company, charges $40,000+ annually for platform access and frames every metric against clinical outcomes and partner deals. Metanova's stats float in isolation.</p>
+    <p>The <a href="https://x.com/metanova_labs/status/1895902681182388622">NOVA launch post</a> opened with "introducing: NOVA ⚡️" and described the platform as "a high-speed race for breakthroughs." The pinned post uses a narrative hook without a verifiable data anchor. Posts default to lowercase copy throughout. These are community-manager aesthetic choices. They are incompatible with the institutional positioning the product deserves.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-label">Competitive Positioning</div>
+    <h2>No category, no positioning</h2>
+    <p>Metanova does not own a phrase. Third parties default to describing the project by its subnet number and feature set: "Bittensor Subnet 68 for drug discovery." That framing commoditizes the product and makes it impossible to distinguish from the next DeSci subnet that launches.</p>
+    <p><a href="https://www.bio.xyz/">BIO Protocol</a>, the Binance Labs-backed DeSci infrastructure layer, reached a peak market cap above $2.3 billion in early 2025, generating sustained editorial coverage by leading with a named category and institutional tone. When BIO news breaks or FDA AI drug approval reports drop, Metanova is not connecting its thesis to the macro tailwind. Score used its <a href="https://x.com/webuildscore/status/1932845676440019397">VivaTech appearance</a> to embed its category phrase into third-party coverage. Metanova had the same conference access and did not build that habit.</p>
+    <p><a href="https://molecule.xyz/">Molecule</a> and <a href="https://vitadao.com/">VitaDAO</a> both lead with named categories, institutional tone, and explicit investor-facing data. A fund manager arriving at Metanova's feed after reading either account's research would not see a peer.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-label">Operations and Distribution</div>
+    <h2>CEO void and no amplification infrastructure</h2>
+    <p>At 720 posts over 14 months, Metanova posts more than 50 times per month. Score posts at lower volume with higher distribution impact per post, running a structured <a href="https://x.com/webuildscore/status/1944086856213442580">podcast</a> that generates interview clips for distribution and investing in a formal identity rebrand via <a href="https://x.com/webuildscore/status/1950912104233390218">@outpacestudios</a>. Metanova has no equivalent distribution infrastructure.</p>
+    <p>The NOVA launch was amplified by Bittensor community accounts and picked up by <a href="https://www.kucoin.com/news/flash/metanova-labs-launches-decentralized-drug-discovery-on-bittensor-expanding-molecule-dataset-to-65-billion">KuCoin's news flash</a>. That is subnet amplification, not institutional amplification. No research firm QTs, no DeSci fund accounts engaging, no coordinated cascade within 30 minutes of a major post. LinkedIn is effectively unused despite VivaTech drawing a LinkedIn-heavy professional audience.</p>
+  </div>
+
+  <hr>
+
+  <div class="section">
+    <div class="section-label">The Pylon Pitch</div>
+    <h2>The project is not a hard sell. It is an unsold product.</h2>
+    <p>Metanova has the three inputs Pylon works with: a credible founder who can command a stage, a real product with publishable metrics, and a technical story that institutional allocators will find interesting if translated correctly. The gap is entirely executional. Pylon's specific contribution would be three things: activate the CEO's personal account as the primary thesis distribution channel; develop a category phrase that third parties will reuse; and build the translation layer that converts technical platform updates into allocator-grade signals, with benchmarks attached to every metric.</p>
+  </div>
+
+  <div class="footer">
+    Pylon Partners &nbsp;&middot;&nbsp; Confidential &nbsp;&middot;&nbsp; April 2026
+  </div>
+</div>
+</body>
+</html>
